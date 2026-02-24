@@ -7,6 +7,7 @@ import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 import org.gradle.api.tasks.testing.logging.TestLogEvent
 
 plugins {
+    `java-library`
     alias(libs.plugins.google.protobuf)
     checkstyle
     `maven-publish`
